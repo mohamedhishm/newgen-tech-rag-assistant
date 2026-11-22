@@ -1,0 +1,293 @@
+NEWGEN TECH
+EXPENSE REIMBURSEMENT GUIDELINES
+
+Document ID: NGT-FIN-008
+Owner: Finance and Accounting
+Control partners: Procurement, People & HR, Information Security
+Effective date: 1 January 2026
+Version: 2.0
+Classification: Internal
+
+======================================================================
+1. PURPOSE AND SCOPE
+======================================================================
+
+These guidelines define which business expenses NewGen Tech reimburses,
+who must approve them, what evidence is required, and when claims must
+be submitted.
+
+They apply to employees and to contractors whose signed agreements allow
+reimbursement. Expenses must be necessary, reasonable, connected to an
+approved business purpose, and supported by an itemized receipt.
+
+======================================================================
+2. CORE RULES
+======================================================================
+
+- Obtain approval before making a material commitment.
+- Use an approved company payment method when one is available.
+- Do not divide one purchase into smaller claims to avoid an approval
+  threshold.
+- Submit claims within 30 calendar days of the transaction or trip end.
+- Convert foreign currency using the rate recorded by the expense system
+  on the transaction date. A card statement may be used when it shows the
+  actual settled amount.
+- Tips are reimbursable where customary, up to 15 percent unless a local
+  service charge is already included.
+- Personal loyalty points may be retained, but travel choices must not be
+  made primarily to earn them.
+- Reimbursement is normally paid with the next available payroll or
+  supplier-payment cycle after approval.
+
+Claims older than 60 calendar days require Finance Director approval.
+Claims older than 90 calendar days are rejected unless a documented
+exception, such as hospitalization or system failure, prevented timely
+submission.
+
+======================================================================
+3. APPROVAL MATRIX
+======================================================================
+
+Amount or type                         Required approval
+------------------------------------   ---------------------------------
+Up to EGP 5,000                        Line manager
+EGP 5,001-25,000                       Department budget owner
+Above EGP 25,000                       Department leader and Finance
+Any new software or subscription      Procurement workflow under
+                                      NGT-PROC-018
+Customer entertainment                Manager and Sales/CS budget owner
+International travel                  Department leader and Finance
+Security tools or data processors     Information Security review
+Exception to these guidelines         Finance Controller
+
+The full expected cost must be used when applying a threshold, including
+tax, delivery, recurring fees, and foreign-exchange charges.
+
+======================================================================
+4. BUSINESS TRAVEL
+======================================================================
+
+Travel must be approved before booking. The request must state the
+business purpose, destination, dates, expected cost, customer or event,
+and project or department cost center.
+
+4.1 Air and Rail
+
+- Economy class is required for flights under six hours.
+- Premium economy may be approved for a scheduled flight of six hours or
+  longer.
+- Business class requires Executive Leadership Team approval and a
+  documented medical, accessibility, or critical business reason.
+- Reasonable seat selection and one checked bag are reimbursable.
+- Change fees are reimbursable when caused by business requirements or a
+  documented emergency.
+- Lounge memberships, first-class rail, and personal trip extensions are
+  not reimbursable unless the personal extension reduces total company
+  cost and is approved in advance.
+
+4.2 Lodging
+
+Employees should use safe, business-appropriate lodging near the work
+location. Guideline caps per night, excluding taxes, are:
+
+- Cairo or Alexandria: EGP 4,000
+- Other Egypt locations: EGP 3,000
+- Middle East and North Africa outside Egypt: USD 180 equivalent
+- Europe: EUR 220 equivalent
+- Other destinations: USD 200 equivalent
+
+A higher rate requires pre-approval when event dates, safety, or local
+availability make the cap impractical. Minibar, in-room entertainment,
+spa services, and damage charges are personal expenses.
+
+4.3 Ground Transportation
+
+Reimbursable options include public transport, standard taxi or ride-hail,
+airport transfer, and approved rental car. Employees should choose the
+safest practical option rather than the lowest cost regardless of safety.
+Luxury vehicles are not reimbursable. Rental-car fuel and tolls require
+receipts. Traffic fines and parking violations are personal expenses.
+
+4.4 Daily Meal and Incidental Per Diem
+
+For approved overnight travel, the maximum daily allowance is:
+
+- Egypt: EGP 1,000 per full travel day
+- Middle East and North Africa outside Egypt: USD 50 equivalent
+- Europe: EUR 65 equivalent
+- Other destinations: USD 60 equivalent
+
+On the first and last travel day, 75 percent of the daily cap applies.
+Where breakfast, lunch, or dinner is provided by a hotel, conference, or
+customer, reduce the cap by 20 percent, 30 percent, or 50 percent
+respectively.
+
+Alcohol is not reimbursable. Itemized receipts are required when the
+expense system uses actual-cost reimbursement. Finance may publish a
+country-specific statutory rate where required.
+
+======================================================================
+5. CUSTOMER AND TEAM MEALS
+======================================================================
+
+A customer meal claim must identify attendees, organizations, business
+purpose, date, and location. The most senior NewGen Tech employee present
+submits the claim.
+
+Team meals require manager approval and a clear business purpose such as
+an approved planning session, onboarding event, or recognition event.
+Routine lunches for employees working at a company hub are not reimbursed.
+
+======================================================================
+6. HOME-OFFICE EQUIPMENT ALLOWANCE
+======================================================================
+
+A new regular employee in a remote-eligible role may claim up to
+EGP 12,000 during the first 90 calendar days of employment for approved
+home-office equipment.
+
+Eligible items:
+
+- Ergonomic chair
+- Desk
+- External monitor
+- Keyboard and mouse
+- Laptop stand or docking station
+- Headset or webcam
+- Surge protector or small uninterruptible power supply
+
+Ineligible items:
+
+- Home decoration
+- General household furniture
+- Television or gaming equipment
+- Personal mobile phones
+- Construction, rent, or utilities
+- Equipment already supplied by NewGen Tech
+
+Manager and IT approval are required before purchase of monitors,
+docking stations, networking devices, or peripherals requiring technical
+compatibility. Security-sensitive devices must follow
+17_Information_Security_and_Data_Privacy.pdf.
+
+Equipment reimbursed at 75 percent or more of its purchase price is a
+NewGen Tech asset and must be recorded in the asset register. Finance and
+IT determine return or residual-value treatment during offboarding under
+09_Offboarding_and_Exit_Procedures.md.
+
+======================================================================
+7. COWORKING COSTS
+======================================================================
+
+Eligible remote employees may claim up to EGP 1,500 per calendar month
+for coworking access under 02_Work_Hours_and_Hybrid_Policy.pdf.
+
+Use expense category: Remote Work - Coworking.
+
+The claim must include an itemized receipt and, for recurring membership,
+prior manager approval. Unused amounts do not roll over. Food, commuting,
+private clubs, hotel stays, and guest passes are excluded.
+
+======================================================================
+8. INTERNET, MOBILE, AND CONNECTIVITY
+======================================================================
+
+Employees in roles requiring regular customer calls, on-call coverage, or
+remote work may claim up to EGP 600 per month for incremental business
+internet or mobile-data cost with manager approval.
+
+The claim must show the service period and amount. NewGen Tech does not
+reimburse the full household bill where business use does not create an
+incremental cost. Emergency data used during an incident may be reimbursed
+outside the cap with the incident number and manager approval.
+
+======================================================================
+9. LEARNING, CERTIFICATIONS, AND CONFERENCES
+======================================================================
+
+Learning and conference claims count against the annual USD 1,200
+employee budget defined in
+07_Compensation_Benefits_and_Health_Insurance.pdf.
+
+Pre-approval is required. Claims must include the course, certification,
+or event name, provider, date, cost, and relationship to the employee's
+development plan. Travel costs are charged separately to the department
+travel budget only when specifically approved.
+
+======================================================================
+10. SOFTWARE, CLOUD SERVICES, AND SUBSCRIPTIONS
+======================================================================
+
+Employees must not purchase software, SaaS, cloud credits, data sets, AI
+tools, or browser extensions with company data access through a personal
+card unless Procurement has approved the purchase.
+
+All such purchases follow 18_Procurement_and_Vendor_Approval_Workflow.txt,
+including Information Security and Legal review where required. Automatic
+renewal must be recorded before purchase.
+
+======================================================================
+11. REQUIRED DOCUMENTATION
+======================================================================
+
+Each claim must include:
+
+- Transaction date
+- Merchant or provider
+- Itemized receipt or invoice
+- Business purpose
+- Cost center or project code
+- Currency and amount
+- Required approver
+- Attendees for meals or events
+- Travel request or procurement reference where applicable
+
+A card slip without item detail is not sufficient. If a receipt is lost,
+submit a Lost Receipt Declaration. More than two lost-receipt declarations
+in a rolling 12-month period require Finance Controller review.
+
+======================================================================
+12. NON-REIMBURSABLE EXPENSES
+======================================================================
+
+NewGen Tech does not reimburse:
+
+- Personal purchases or commuting to the employee's normal work location
+- Alcohol, tobacco, or recreational substances
+- Fines, penalties, or late fees caused by the employee
+- Personal insurance
+- Childcare or pet care, unless an approved event policy states otherwise
+- Cash withdrawals and unexplained foreign-exchange fees
+- Gifts that violate 03_Code_of_Conduct_and_Ethics.txt
+- Political donations
+- Unapproved software or cloud services
+- Expenses already paid by a customer, partner, or another employee
+- Upgrades chosen for personal convenience
+
+======================================================================
+13. SUBMISSION AND REVIEW WORKFLOW
+======================================================================
+
+1. Employee creates the claim in the expense system.
+2. Employee attaches evidence and selects the correct cost center.
+3. Manager verifies business purpose and reasonableness.
+4. Budget owner or specialist approver reviews when required.
+5. Finance checks tax, receipt, policy, and duplicate-payment controls.
+6. Approved reimbursement enters the next payment cycle.
+7. Rejected claims are returned with a reason and correction instructions.
+
+Employees must not approve their own expense. Delegated approvers must not
+approve expenses that create a personal conflict of interest.
+
+======================================================================
+14. AUDIT, MISUSE, AND RECOVERY
+======================================================================
+
+Finance may audit claims before or after payment. NewGen Tech may recover
+duplicate, unsupported, or ineligible payments through an agreed repayment
+or lawful payroll deduction. Deliberately false claims are reviewed under
+03_Code_of_Conduct_and_Ethics.txt.
+
+Questions: submit an Expense Support request through the Finance portal.
+
+END OF DOCUMENT

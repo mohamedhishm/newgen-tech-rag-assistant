@@ -1,0 +1,44 @@
+NEWGEN TECH
+CODE OF CONDUCT AND ETHICS
+
+Document ID: NGT-ETH-003
+Owner: People & HR
+Effective date: 1 January 2026
+Classification: Internal
+
+1. STANDARD OF CONDUCT
+Act lawfully, honestly, professionally, and respectfully. Protect confidential information, preserve accurate records, disclose conflicts, use company resources responsibly, and report suspected misconduct.
+
+2. RESPECTFUL WORKPLACE
+Harassment, discrimination, bullying, threats, degrading remarks, retaliation, and deliberate exclusion from information needed for work are prohibited. Constructive performance feedback and legitimate management action are not bullying when conducted professionally.
+
+3. ANTI-HARASSMENT
+Harassment may occur in person or through Slack, email, video, social media, events, or customer interactions. Sexual harassment includes unwanted comments, repeated requests after refusal, unwanted contact, sexual images, workplace benefits offered for attention, or workplace penalties after rejection. Managers must refer serious concerns to People & HR.
+
+4. CONFLICTS OF INTEREST
+Disclose financial interests, close relationships in hiring or supervision, vendor relationships, outside work, advisory roles, and competing commercial projects. Disclosure does not automatically prohibit an activity; NewGen Tech may remove an approver, create an information barrier, change a reporting line, or decline the activity.
+
+5. GIFTS AND BUSINESS COURTESIES
+Cash and cash equivalents are prohibited. Manager and Finance approval is required above EGP 2,500. Gifts during procurement, audits, contract decisions, or public-official interactions require Legal review and may be prohibited regardless of value.
+
+6. ACCURATE RECORDS
+Do not submit false expenses, backdate approvals, conceal incidents, manipulate metrics, obstruct an audit, misrepresent product capability, or sign without authority. Roadmap items are not customer commitments unless authorized.
+
+7. INFORMATION AND SYSTEMS
+Do not share credentials, disable controls, install unapproved software, upload confidential data to public AI services, copy source code to personal devices, or access data outside authorization. Company systems may be monitored as permitted by law.
+
+8. RESPONSIBLE PRODUCTS
+Do not use customer data outside purpose, present unvalidated PulseAI output as certain, disable NovaCloud tenant isolation, bypass ShieldGate controls without an approved exception, or conceal a material limitation.
+
+9. REPORTING CHANNELS
+Raise concerns with a manager, People & HR, Omar Farouk for security matters, ethics@newgentech.example, or the restricted Ethics Intake form. Anonymous reports receive a case number. Complete evidence is not required, but reports must be honest.
+
+10. NON-RETALIATION
+Retaliation against a person who reports in good faith, participates in a review, requests accommodation, or refuses an apparently unlawful instruction is prohibited.
+
+11. INVESTIGATION AND OUTCOMES
+Authorized reviewers may preserve records, interview participants, inspect logs or expenses, apply temporary measures, and engage independent specialists. Outcomes may include coaching, warning, access removal, reassignment, repayment, suspension, termination, or referral to authorities.
+
+RELATED: 01_Welcome_and_Company_Culture.md; 08_Expense_Reimbursement_Guidelines.txt; 17_Information_Security_and_Data_Privacy.pdf.
+
+END OF DOCUMENT

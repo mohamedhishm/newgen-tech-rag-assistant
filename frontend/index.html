@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewGen Tech Knowledge Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" aria-label="System status">
+      <h1>NewGen Tech</h1>
+      <p class="subtitle">Company Knowledge Assistant</p>
+
+      <section>
+        <h2>System status</h2>
+        <dl class="status">
+          <dt>Service</dt><dd id="st-status">Checking</dd>
+          <dt>Documents</dt><dd id="st-docs">-</dd>
+          <dt>Indexed chunks</dt><dd id="st-chunks">-</dd>
+          <dt>Model</dt><dd id="st-model">-</dd>
+          <dt>LLM key</dt><dd id="st-key">-</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Knowledge base</h2>
+        <p class="note">Answers are drawn only from the company documents in the data folder.</p>
+        <button id="reindex" class="btn secondary" type="button">Re-index documents</button>
+      </section>
+
+      <section>
+        <h2>Example questions</h2>
+        <ul class="examples">
+          <li><button type="button" class="link">What is the remote work policy?</button></li>
+          <li><button type="button" class="link">How do I request IT support?</button></li>
+          <li><button type="button" class="link">What does ShieldGate do?</button></li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="chat">
+      <div id="messages" class="messages" aria-live="polite">
+        <div class="empty" id="empty">Ask a question about HR, IT, the employee handbook, products or procedures.</div>
+      </div>
+      <form id="form" class="composer">
+        <label for="question" class="visually-hidden">Your question</label>
+        <textarea id="question" rows="2" maxlength="1000" placeholder="Type your question" required></textarea>
+        <button class="btn" id="send" type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

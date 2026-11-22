@@ -1,0 +1,45 @@
+NEWGEN TECH
+IT HELPDESK TROUBLESHOOTING FAQ
+Document ID: NGT-FAQ-025 | Owner: Internal IT
+
+1. VPN WILL NOT CONNECT
+Confirm internet access, correct system time, MFA approval, and that the laptop reports compliant. Restart the VPN client. If the error persists, capture the exact code and time; do not reinstall or remove the device profile without IT instructions.
+
+2. VPN CONNECTS BUT INTERNAL SITES DO NOT LOAD
+Disconnect and reconnect, confirm the expected VPN profile, and test one approved internal hostname. Provide IT the hostname, time, and whether the issue affects all internal sites.
+
+3. MFA PROMPTS REPEAT
+Reject unexpected prompts. If prompts continue without your login attempt, contact the security incident channel immediately. For a known login, verify system time and re-open the approved authenticator.
+
+4. I LOST OR REPLACED MY PHONE
+Contact IT for identity verification and MFA reset. Do not ask a colleague to approve your login. Use a registered hardware key or recovery path if available.
+
+5. SLACK INTEGRATION IS NOT WORKING
+Check whether the app is approved, whether you are in the required channel, and whether the integration token or OAuth grant expired. New apps require procurement and security review when they access company data.
+
+6. I CANNOT ACCESS JIRA OR CONFLUENCE
+Sign out and use company SSO. Confirm the requested project or space and ask the owner to approve membership. IT cannot grant project authorization without the owner.
+
+7. GITHUB ACCESS IS DENIED
+Verify SSO authorization and organization membership. Repository access is team-based; submit the repository, required permission, role, and manager or code-owner approval.
+
+8. LAPTOP IS SLOW
+Restart, connect power, close unneeded applications, check free disk space, and allow pending updates. Send IT the asset tag, symptoms, duration, and whether performance affects one application or the full device.
+
+9. DISK IS FULL
+Empty approved temporary folders and local build caches. Do not delete security tools or company records. Store business files in approved company storage, not personal cloud drives.
+
+10. CAN I UPGRADE MY LAPTOP?
+IT reviews warranty, age, role profile, memory or storage pressure, and repair history. Standard refresh eligibility does not guarantee immediate replacement. Accessibility or critical workload needs may be prioritized.
+
+11. DEVICE IS LOST OR STOLEN
+Report immediately to IT and Information Security with last known time and location. Do not wait for a police report. IT may lock or erase the device and revoke sessions.
+
+12. EMAIL OR SLACK MAY BE COMPROMISED
+Use a safe device to contact the security incident channel. Do not continue using the suspected session, delete evidence, or warn a suspected attacker. Security will reset credentials, revoke sessions, and preserve logs.
+
+WHEN OPENING A TICKET
+Include asset tag, location, time, exact error, screenshot without secrets, steps already tried, business impact, and a callback method. For active security concerns, use the incident channel rather than a normal ticket.
+
+RELATED: 15_New_Hire_IT_and_Hardware_Onboarding.html; 17_Information_Security_and_Data_Privacy.pdf.
+END

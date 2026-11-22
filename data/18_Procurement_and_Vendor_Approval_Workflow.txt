@@ -1,0 +1,46 @@
+NEWGEN TECH
+PROCUREMENT AND VENDOR APPROVAL WORKFLOW
+Document ID: NGT-PROC-018 | Owner: Procurement and Finance
+
+1. SCOPE
+Applies to software, SaaS, cloud services, consultants, agencies, hardware, data sets, AI services, and renewals. Employees may not accept click-through terms or use personal cards to bypass review.
+
+2. THRESHOLDS
+Up to EGP 25,000 annual value: budget-owner approval.
+EGP 25,001-100,000: department leader and Procurement.
+Above EGP 100,000: department leader, Procurement, and Finance Director.
+Above EGP 500,000 or multi-year commitment: Executive Leadership Team review.
+Threshold uses total committed contract value including tax, implementation, renewal minimums, and mandatory add-ons.
+
+3. REQUIRED INTAKE
+Business problem; proposed vendor; alternatives; users; data types; integrations; annual and total value; term; renewal date; cancellation notice; cost center; implementation owner; and desired completion date.
+
+4. COMPETITIVE REVIEW
+Three written quotes are normally required above EGP 100,000. Procurement may waive this for sole-source technology, emergency, regulated compatibility, or documented product dependency. The waiver must state reason and approver.
+
+5. SECURITY REVIEW TRIGGERS
+Required when a vendor accesses company or customer data, uses SSO, installs software, connects to GitHub/cloud/Slack/Microsoft 365, hosts production workloads, processes PII, uses AI on company content, or supports security operations.
+
+6. LEGAL AND PRIVACY REVIEW
+Required for data processing, non-standard liability, customer-facing services, intellectual-property creation, auto-renewal, international data transfer, marketing rights, or public references.
+
+7. FINANCE REVIEW
+Finance validates budget, tax, currency, payment terms, capitalization, total commitment, duplicate tooling, and purchase-order requirements.
+
+8. APPROVAL SEQUENCE
+Requester -> Manager -> Budget Owner -> Procurement -> Information Security/Privacy -> Legal -> Finance -> Authorized Signatory -> Purchase Order -> Vendor Onboarding. Only an authorized signatory may execute a contract.
+
+9. EMERGENCY PROCUREMENT
+A SEV-1 may justify accelerated purchase. Incident Commander and budget owner document the need; Security reviews before data access where possible; retrospective Procurement, Legal, and Finance review occurs within two business days. Emergency purchasing does not waive prohibited-vendor or sanctions controls.
+
+10. RENEWALS
+Procurement starts review 90 days before renewal for contracts above EGP 100,000 and 45 days for smaller recurring services. The owner confirms utilization, security status, business value, price change, notice deadline, and exit plan.
+
+11. VENDOR OFFBOARDING
+Terminate accounts and integrations, export required records, obtain deletion confirmation, recover assets, revoke credentials, update inventory, and stop invoices.
+
+12. RECORDS
+The procurement system stores request, approvals, quotes, risk review, contract, purchase order, invoices, renewal date, owner, and offboarding evidence.
+
+RELATED: NGT-FIN-008; NGT-SEC-017; NGT-ETH-003.
+END

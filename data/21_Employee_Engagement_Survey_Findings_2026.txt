@@ -1,0 +1,44 @@
+NEWGEN TECH
+EMPLOYEE ENGAGEMENT SURVEY FINDINGS 2026
+Document ID: NGT-RPT-021 | Owner: People & HR
+
+1. PARTICIPATION
+Survey open: 6-20 September 2026. Responses: 151 of approximately 180 employees. Response rate: 84%. Results are reported in groups of at least five to protect confidentiality.
+
+2. OVERALL SCORES
+Overall engagement: 78/100.
+Pride in NewGen Tech: 84.
+Manager support: 81.
+Role clarity: 76.
+Career growth: 69.
+Workload sustainability: 67.
+Hybrid-work effectiveness: 82.
+Confidence in leadership communication: 74.
+
+3. STRONGEST THEMES
+Employees value remote-first flexibility, approachable managers, product mission, and cross-team willingness to help during incidents. Respondents especially noted improved engineering documentation and the predictability of 11 AM-3 PM collaboration hours.
+
+4. IMPROVEMENT THEMES
+Career expectations are not equally clear across business functions. Some teams experience meeting concentration during core hours. Cairo-hub capacity is tight on planning days. Engineering and Customer Success report recurring after-hours workload. Employees want clearer compensation timing and more visibility into roadmap trade-offs.
+
+5. HYBRID-WORK ACTIONS
+- Publish team operating agreements by 31 January 2027.
+- Pilot two meeting-light mornings per week in Product and Engineering.
+- Add 24 reservable Cairo desks and improve focus-room booking by Q1 2027.
+- Retain the EGP 1,500 monthly coworking stipend.
+- Require remote participation for cross-site company meetings.
+
+6. CAREER AND MANAGER ACTIONS
+People & HR will publish business-function examples for L1-L6, train managers on review evidence, and introduce quarterly development conversations. Each department will identify roles with weak succession coverage.
+
+7. WORKLOAD ACTIONS
+Engineering Operations will reduce repeated PagerDuty alerts by 25% in Q4. Customer Success will add regional backup ownership for Enterprise accounts. Managers will review employees with sustained after-hours work during monthly capacity planning.
+
+8. ACCOUNTABILITY
+Sarah El-Masry owns the company action plan. Department leaders report progress monthly. A pulse survey in March 2027 will repeat career clarity, workload, leadership communication, and hybrid-effectiveness questions.
+
+9. LIMITATIONS
+Results reflect participant perceptions at the survey date. Small teams were combined, free-text was redacted, and scores should not be interpreted as legal or clinical findings.
+
+RELATED: 02_Work_Hours_and_Hybrid_Policy.pdf; 04_Career_Progression_and_Reviews.md.
+END

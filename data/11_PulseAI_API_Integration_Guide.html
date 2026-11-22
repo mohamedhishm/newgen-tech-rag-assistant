@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>PulseAI API Integration Guide</title><style>body{font-family:Arial,sans-serif;max-width:980px;margin:32px auto;padding:0 22px;color:#1f2933;line-height:1.55}h1,h2{color:#19364d}code,pre{background:#eef3f5;border-radius:5px}code{padding:2px 5px}pre{padding:14px;overflow:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #bac6cc;padding:8px;text-align:left}th{background:#19364d;color:white}.note{border-left:5px solid #177f82;background:#eef7f7;padding:12px}</style></head><body>
+<h1>PulseAI API Integration Guide</h1><p><strong>Document ID:</strong> NGT-PROD-PA-011 | <strong>Version:</strong> 2.4 | <strong>Owner:</strong> PulseAI Platform Engineering | <strong>Classification:</strong> Customer-confidential / Internal</p>
+<h2>1. Base Endpoints</h2><table><tr><th>Environment</th><th>Base URL</th></tr><tr><td>Staging</td><td><code>https://api.staging.pulseai.newgentech.example/v2</code></td></tr><tr><td>Production EU</td><td><code>https://api.eu.pulseai.newgentech.example/v2</code></td></tr><tr><td>Production ME</td><td><code>https://api.me.pulseai.newgentech.example/v2</code></td></tr></table>
+<h2>2. Authentication</h2><p>Use OAuth 2.0 client credentials. Send <code>Authorization: Bearer &lt;access_token&gt;</code>, <code>Content-Type: application/json</code>, and a unique <code>Idempotency-Key</code> for retryable POST requests. Tokens are tenant- and region-bound and normally expire after 60 minutes.</p>
+<pre>POST /oauth2/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&amp;client_id=CLIENT_ID&amp;client_secret=CLIENT_SECRET&amp;scope=reports:write reports:read</pre>
+<h2>3. Create a Forecast Job</h2><pre>POST /forecast-jobs
+{
+  "model_id": "demand-forecast-v3",
+  "dataset_id": "ds_7f49c2",
+  "horizon": {"unit": "day", "value": 30},
+  "confidence_intervals": [0.80, 0.95],
+  "output": {"format": "json"}
+}</pre><p>Successful requests return <code>202 Accepted</code> with a job ID and status URL. A job is complete only when status is <code>succeeded</code>.</p>
+<h2>4. Automated Report Request</h2><pre>POST /reports
+{
+  "template_id": "ops-weekly-v2",
+  "time_range": {"from": "2026-10-01", "to": "2026-10-07"},
+  "delivery": {"type": "webhook", "webhook_id": "wh_8821"}
+}</pre>
+<h2>5. Rate Limits</h2><table><tr><th>Tier</th><th>Requests/minute</th><th>Concurrent jobs</th></tr><tr><td>Standard</td><td>120</td><td>5</td></tr><tr><td>Pro</td><td>600</td><td>20</td></tr><tr><td>Enterprise</td><td>Contracted, default 1,500</td><td>Default 50</td></tr></table><p>Use <code>X-RateLimit-Limit</code>, <code>X-RateLimit-Remaining</code>, and <code>Retry-After</code>. Retry 429 and transient 5xx responses with exponential backoff and jitter.</p>
+<h2>6. Error Model</h2><pre>{"error":{"code":"DATASET_SCHEMA_MISMATCH","message":"Required field region_code is missing","correlation_id":"cor_01HG...","details":[{"field":"region_code","issue":"required"}]}}</pre>
+<table><tr><th>HTTP</th><th>Code</th><th>Meaning</th></tr><tr><td>400</td><td>INVALID_REQUEST</td><td>Malformed JSON or unsupported parameter</td></tr><tr><td>401</td><td>INVALID_TOKEN</td><td>Missing, expired, or invalid token</td></tr><tr><td>403</td><td>INSUFFICIENT_SCOPE</td><td>Token lacks permission or tenant access</td></tr><tr><td>404</td><td>RESOURCE_NOT_FOUND</td><td>Resource absent in the current tenant</td></tr><tr><td>409</td><td>IDEMPOTENCY_CONFLICT</td><td>Key reused with different payload</td></tr><tr><td>422</td><td>DATASET_SCHEMA_MISMATCH</td><td>Dataset cannot satisfy model schema</td></tr><tr><td>429</td><td>RATE_LIMITED</td><td>Quota exceeded</td></tr><tr><td>500</td><td>INTERNAL_ERROR</td><td>Unexpected server failure</td></tr></table>
+<h2>7. Webhooks</h2><p>PulseAI signs callbacks with HMAC-SHA256 in <code>X-PulseAI-Signature</code>. Verify the raw request body and timestamp. Reject callbacks older than five minutes. Respond within 10 seconds; failed deliveries are retried for 24 hours.</p>
+<h2>8. Security and Data Handling</h2><div class="note">Never place client secrets in browser code, mobile apps, source repositories, Jira, or Slack. Use an approved secrets manager and rotate credentials immediately after suspected exposure.</div>
+<h2>9. Support</h2><p>Provide environment, tenant ID, endpoint, timestamp, HTTP status, and correlation ID. Do not attach raw customer data unless Support provides an approved secure-upload path.</p>
+</body></html>

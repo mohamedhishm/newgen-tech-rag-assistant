@@ -1,0 +1,41 @@
+NEWGEN TECH
+CUSTOMER SLA AND SUPPORT TIERS
+Document ID: NGT-CS-014 | Owner: Customer Support
+
+1. SUPPORT TIERS
+Standard: business-hours support, named tenant administrators, public status updates.
+Pro: extended support, priority queue, quarterly service review.
+Enterprise: 24x7 SEV-1/SEV-2 coverage, named escalation contacts, service review, and contracted architecture support.
+
+2. INITIAL RESPONSE TARGETS
+Severity | Standard | Pro | Enterprise
+SEV-1 critical outage/security exposure | 2 business hours | 30 minutes, 24x7 | 15 minutes, 24x7
+SEV-2 major degradation | 4 business hours | 2 hours | 30 minutes, 24x7
+SEV-3 limited impact/workaround exists | 1 business day | 8 business hours | 4 business hours
+SEV-4 question/request | 2 business days | 1 business day | 1 business day
+
+3. SEVERITY DEFINITIONS
+SEV-1: broad production unavailability, confirmed cross-tenant exposure, active critical compromise, or data-loss condition.
+SEV-2: major feature unavailable, severe degradation, or multiple users blocked without reasonable workaround.
+SEV-3: limited feature impairment or isolated user impact with workaround.
+SEV-4: how-to, configuration, documentation, or enhancement request.
+
+4. CUSTOMER OBLIGATIONS
+Provide product, tenant, environment, timestamps, correlation IDs, impact, troubleshooting already performed, and a reachable technical contact. Do not send credentials or full customer datasets by email.
+
+5. ESCALATION MATRIX
+SEV-1: Support Duty Manager -> Incident Commander -> Product Engineering Lead -> Information Security Officer when security is involved -> CTO as required.
+SEV-2: Support Lead -> Engineering service owner -> Product owner.
+Commercial or service-credit question: Customer Success -> Commercial Operations -> Legal/Finance.
+
+6. STATUS UPDATES
+SEV-1 updates at least every 30 minutes until stable. SEV-2 updates at least every 2 hours during active work. Lower-severity updates follow the agreed case plan.
+
+7. AVAILABILITY
+Availability commitments and service-credit terms are defined in the signed order or master agreement. Maintenance announced under the release policy, customer-caused failure, unsupported configuration, and force majeure may be excluded as stated in contract.
+
+8. ESCALATION CONTACT
+Use the Support Portal for cases. For an open Enterprise SEV-1 case, use the published 24x7 escalation number and quote the case ID.
+
+RELATED: 13_Product_Release_Lifecycle_and_Versioning.md; 16_Incident_Response_and_OnCall_Runbook.md.
+END
